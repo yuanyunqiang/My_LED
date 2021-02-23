@@ -1,11 +1,12 @@
 import sys
 import time
-import qdarkgraystyle
+import qdarkstyle
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from Ui_main import Ui_MainWindow
 from PyQt5.QtCore import QTimer
+import os
 
-    
+os.environ['QT_API'] = 'pyqt5'
 class MainWindow(QMainWindow,Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
@@ -24,7 +25,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
 if __name__ == "__main__":
     App = QApplication(sys.argv)
     ex = MainWindow()
-    App.setStyleSheet(qdarkgraystyle.load_stylesheet())
+    App.setStyleSheet(qdarkstyle.load_stylesheet())
     ex.show()
     sys.exit(App.exec_())
 
