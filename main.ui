@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>33</x>
-      <y>10</y>
-      <width>550</width>
+      <x>20</x>
+      <y>40</y>
+      <width>587</width>
       <height>175</height>
      </rect>
     </property>
@@ -39,9 +39,9 @@
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>43</x>
-      <y>220</y>
-      <width>545</width>
+      <x>21</x>
+      <y>240</y>
+      <width>588</width>
       <height>21</height>
      </rect>
     </property>
@@ -74,15 +74,93 @@
     <property name="geometry">
      <rect>
       <x>627</x>
-      <y>1</y>
+      <y>11</y>
       <width>387</width>
-      <height>264</height>
+      <height>246</height>
      </rect>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>627</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/tianqi/static/未标题-1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>629</x>
+      <y>300</y>
+      <width>384</width>
+      <height>264</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>one</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>我的第一条新闻</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>349</x>
+      <y>310</y>
+      <width>168</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>80</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>310</y>
+      <width>110</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/tianqi/static/103.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="tianqi.qrc"/>
+ </resources>
  <connections/>
 </ui>
