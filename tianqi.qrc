@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="tianqi">
-    <file>static/未标题-1.png</file>
     <file>static/103.png</file>
+    <file>static/未标题-1.png</file>
   </qresource>
 </RCC>

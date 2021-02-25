@@ -26,7 +26,7 @@
     <property name="font">
      <font>
       <family>Bahnschrift Condensed</family>
-      <pointsize>150</pointsize>
+      <pointsize>145</pointsize>
      </font>
     </property>
     <property name="text">
@@ -96,43 +96,24 @@
      <string/>
     </property>
    </widget>
-   <widget class="QListWidget" name="listWidget">
-    <property name="geometry">
-     <rect>
-      <x>629</x>
-      <y>300</y>
-      <width>384</width>
-      <height>264</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>one</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>我的第一条新闻</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>349</x>
+      <x>400</x>
       <y>310</y>
-      <width>168</width>
-      <height>121</height>
+      <width>141</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Bahnschrift</family>
-      <pointsize>80</pointsize>
+      <pointsize>85</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string>20</string>
@@ -144,7 +125,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>56</x>
+      <x>30</x>
       <y>310</y>
       <width>110</width>
       <height>110</height>
@@ -160,8 +141,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>248</x>
-      <y>507</y>
+      <x>250</x>
+      <y>510</y>
       <width>107</width>
       <height>30</height>
      </rect>
@@ -182,8 +163,8 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>479</x>
-      <y>507</y>
+      <x>430</x>
+      <y>510</y>
       <width>107</width>
       <height>30</height>
      </rect>
@@ -199,6 +180,72 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>510</y>
+      <width>107</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0%</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>310</y>
+      <width>281</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华光行书_CNKI</family>
+      <pointsize>26</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>大暴雨到特大暴雨</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>270</y>
+      <width>391</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
